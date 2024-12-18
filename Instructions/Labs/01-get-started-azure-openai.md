@@ -75,7 +75,8 @@ In this task, you'll deploy a specific AI model instance within your Azure OpenA
    
 1. Within the **Deploy model** pop-up interface, enter the following details:
       - **Deployment name**: my-gpt-model (1)
-      - **Deployment type**: Standard (2)      
+      - **Deployment type**: Standard (2)
+      - **Click on Customize**      
       - **Model version**: 0301 (Default) (3)
       - **Tokens per Minute Rate Limit (thousands)**: 10K (4)
       - **Enable dynamic quota**: Enabled (5)
@@ -85,10 +86,6 @@ In this task, you'll deploy a specific AI model instance within your Azure OpenA
 
            >**Note** : gpt-35-turbo-16k is supported only for chat completions and it is not supported for completions API.
            
-           > **Note**: If you see the interface like the below screenshot, Click on **Customize** and provide the details.
-
-           ![](../media/code10.png "Keys and Endpoints")           
-
 1. This will deploy a model which you will be playing around with as you proceed.
 
       > **Note**: You can ignore any error related to assignment of roles to view the quota limits. 
