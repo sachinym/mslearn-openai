@@ -95,6 +95,8 @@ In this task, you'll deploy a specific AI model instance within your Azure OpenA
       - **Enable dynamic quota**: Enabled (5)
       - Click on **Deploy** (6)
 
+           ![](../media/i2.png)
+
            >**Note** : if the **gpt-35-turbo-16k(1)** model isn't available, choose **gpt-35-turbo(2)**
 
 7. This will deploy a model that you will be playing around with as you proceed.
